@@ -1,0 +1,9 @@
+.product-detail-container {
+    margin: 2rem 1rem;
+}
+
+.product-detail-container img {
+    width: 300px;
+    height: 400px;
+    margin: 1rem 0;
+}

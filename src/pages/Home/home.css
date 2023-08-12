@@ -1,0 +1,29 @@
+.home-container {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0 0 2rem;
+    text-align: center;
+    font-size: large;
+}
+
+.home-container .inventory-level {
+    background-color: lightgray;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.home-container .total-stock {
+    color: green;
+    font-weight: bold;
+}
+
+.home-container .total-delivered {
+    color: orange;
+    font-weight: bold;
+}
+
+.home-container .low-stock-items {
+    color: red;
+    font-weight: bold;
+}

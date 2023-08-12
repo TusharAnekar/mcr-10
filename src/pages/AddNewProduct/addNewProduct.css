@@ -1,0 +1,16 @@
+.add-new-product-container {
+    margin: 2rem 1rem;
+}
+
+.add-new-product-container h2 {
+    margin-bottom: 1rem;
+}
+
+.add-new-product-container .block {
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.add-new-product-container label {
+    margin-bottom: 0.5rem;
+}

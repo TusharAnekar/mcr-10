@@ -1,0 +1,15 @@
+.navbar-container {
+    background-color: #1A1110;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0 0 1rem;
+}
+
+.navbar-container .link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.departments-container {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    margin: 2rem 0 0 2rem;
+}
+
+.departments-container .department-container {
+    background-color: lightgray;
+    padding: 2rem;
+    height: fit-content;
+    border-radius: 1rem;
+    width: 10rem;
+    cursor: pointer;
+}

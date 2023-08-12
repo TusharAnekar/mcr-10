@@ -1,0 +1,36 @@
+.products-page-container {
+  padding: 2rem;
+}
+
+.products-page-container .header-sort-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-page-container .table-container table {
+  margin: 1rem 0;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.products-page-container .table-container td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+.products-page-container .table-container th {
+  background-color: rgb(235, 235, 235);
+}
+
+.products-page-container .table-container td {
+  text-align: center;
+}
+
+.products-page-container .table-container table tr td img {
+  width: 100px;
+  height: 200px;
+}
