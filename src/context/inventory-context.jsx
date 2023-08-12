@@ -9,7 +9,16 @@ export function InventoryProvider ({children}) {
     const [inventoryState, inventoryDispatch] = useReducer(inventoryReducer, initialInventoryState)
 
     function getInventory () {
-        inventoryDispatch({type: "SET_INVENTORY", payload: inventoryData})
+        const data = JSON.parse(localStorage.getItem("inventoryData"))
+        if(data) {
+            inventoryDispatch({type: "SET_INVENTORY", payload: data})
+        } else {
+            localStorage.setItem("inventoryData", JSON.stringify(inventoryData))
+            inventoryDispatch({type: "SET_INVENTORY", payload: data})
+        }
+        
+       
+        
     }
 
     useEffect(() => {

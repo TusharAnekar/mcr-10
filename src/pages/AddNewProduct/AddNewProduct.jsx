@@ -34,6 +34,7 @@ export function AddNewProduct() {
     e.preventDefault()
     const newId = inventory?.length+1
     setProductDetail({...productDetail, id: newId})
+    localStorage.setItem("inventoryData", JSON.stringify([...inventory, productDetail]))
     inventoryDispatch({type: "ADD_PRODUCT", payload: productDetail})
     navigate("/products")
   }

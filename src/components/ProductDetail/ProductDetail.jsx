@@ -19,6 +19,7 @@ export function ProductDetails () {
         sku,
         delivered
       } = product
+
     return(
         <div className="product-detail-container">
             <h2>{name}</h2>
