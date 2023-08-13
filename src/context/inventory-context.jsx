@@ -60,7 +60,7 @@ export function InventoryProvider({ children }) {
   const sortFilteredInventory =
     inventoryState?.sortType === "name"
       ? [...lowStockItemsFilteredInventory].sort((a, b) =>
-          {return a.name.localeCompare(b, "en", { sensitivity: "base" })}
+          {return a.name.localeCompare(b.name, "en", { sensitivity: "base" })}
         )
       : inventoryState?.sortType === "stock"
       ? [...lowStockItemsFilteredInventory].sort((a, b) => b.stock - a.stock)
